@@ -248,6 +248,7 @@ typedef struct {
 typedef struct {
 	char **domains;
 	int count;
+	int file_count;
 } whitelistStruct;
 
 typedef struct {
